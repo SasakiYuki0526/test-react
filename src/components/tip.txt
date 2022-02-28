@@ -1,0 +1,5 @@
+// 可重複使用的components
+// 此檔案名稱第一個字母要大寫
+
+//State:component 內部的變數，可以用來控制 component 內部元件的顯示狀態
+const [counter, setCounter] = useState(0);
