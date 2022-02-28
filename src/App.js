@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Counter from './components/Counter'; // 引用時要import進來
 
 const App = () => {
-  ruturn (
+  return (
     <div className="App">
-      This is my first react app!
+      <Counter />
     </div>
   )
 }
