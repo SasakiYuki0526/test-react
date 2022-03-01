@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import './App.css';
 import Counter from './components/Counter'; // 引用時要import進來
+import StyledElement from './components/StyledElement';
 
 // hooks way 寫法
 const App = () => {
@@ -8,7 +9,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <Counter count={count} setCount={setCount} title="Counter App"/>
+      /<Counter count={count} setCount={setCount} title="Counter App"/>
+      {/* <StyledElement /> */}
     </div>
   )
 }
